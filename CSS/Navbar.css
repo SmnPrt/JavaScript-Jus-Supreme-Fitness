@@ -1,0 +1,116 @@
+header {
+    position: relative;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.titre {
+    font-family:"Anton","Oswald", "Protest Strike";
+    font-size: xx-large;
+    letter-spacing: 2px;
+    
+    
+}
+
+.BackgroundContainer {
+    background-image: url(../img/jusduq.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+.navbar {
+    font-family: "Oswald", "Protest Strike";
+    font-size: medium;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #364E31;
+    padding: 10px 20px;
+    padding-right: 3em;
+    height: 7em;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    z-index: 100;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 100;
+    
+}
+
+.menu{
+    position: relative;
+}
+
+.menu a {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.menu li {
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul {
+    background: #1e281f;
+    height: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: all .5s ease;
+    top: 100%;
+    width: 95%;
+    border-radius: 25px;
+    list-style-type: none;
+    z-index: 50;
+}
+
+.menu li:hover ul {
+    padding: 10%;
+    height:  375%;
+    width: 95%;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menu ul a {
+    color: white;
+    display: flex;
+}
+
+#horloge {
+  color: black; 
+  font-weight: bold;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+

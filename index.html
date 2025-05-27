@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/Index.css">
+        <link rel="stylesheet" href="CSS/Navbar.css">
+        <link rel="stylesheet" href="CSS/loaderV2.css">
+    <script src="JS/js.js" defer> </script>
+    <script src="JS/ErreurSaisie.js" defer></script>
+    <!-- importation de la police d'ecriture Protest strike-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <!-- importation de la police d'ecriture Bebas Neue-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&display=swap" rel="stylesheet">
+    <!-- importation de la police d'écriture Oswald -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- importation de la police d'écriture Anton -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
+    <body class="BackgroundContainer">
+        <header>
+            <nav class="navbar">
+                <img src="img/LogoCrop.png" width="10%">
+                <a class="titre">JUS SUPRÊME FITNESS</a>
+                <div id="horloge"></div>
+                <span id="chrono"></span>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav nav-link">Accueil</a></li>
+                    <ul class="menu">
+                        <li>
+                          <a href="#">Produits et Services ▼</a>
+                          <ul>
+                            <li><a href="HTML/Nos Abonements.html" class="nav nav-link">Nos abonnements</a></li>
+                            <li><a href="HTML/Nos Options .html" class="nav nav-link">Nos options</a></li>
+                            <li><a href="HTML/Nos Jus copy.html" class="nav nav-link">Nos Jus</a></li>
+                            <li><a href="HTML/les coachs.html" class="nav nav-link">Nos coachs</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    <li><a href="HTML/equipe.html" class ="nav nav-link" onclick="return confirmerNavigation()">Présentation de l'équipe</a></li>
+                    <li><a href="HTML/A propos.html" class="nav nav-link">À propos</a></li>
+                    <li><a href="HTML/nos contact.html" class="nav nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="loaderContainer" style="display: none;">
+        <div class="loader"></div>
+      </div>
+  <div class="Description">
+        <div class="banner">
+            <a class="slogan">Envie de vous dépasser ? Venez repousser vos limites !</a>
+            <br>
+            <div class="panelAlt">
+            <button href="HTML/nos contact.html">INSCRIS-TOI MAINTENANT !</button>
+            <iframe src="https://www.youtube.com/embed/7AHT_A2523c?si=i9NgnTtfrdpt1AFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <br>
+            <a class="slogan">LE GOÛT DU JUS, LE GOÛT DE LA VICTOIRE !</a>
+        </div>
+    <div class="main">
+        <div class="content">
+            <div class="contentEnd">
+                <img src="img/SalleIndex.png" class="Initiale">
+                <button href>Trouve ta salle !</button>
+            </div>
+                <div class="descriptif">
+                    <a>Découvrez notre salle de sport moderne, équipée des meilleurs appareils pour vous dépasser. Des coachs passionnés vous accompagnent dans une ambiance dynamique et motivante, adaptée à tous les niveaux.</a>
+                </div>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="descriptif">
+                <a>Les jus sont la thématique principale de notre salle, nous vous les proposons afin d'optimiser votre séance.<br>Vous trouverez ainsi notre première gamme de jus sur notre page dédiée.</a> 
+            </div>
+            <div class="contentEnd">
+                <img src="img/SecretChef.jpg" class="Initiale"></img>
+                <button href="HTML/Nos Jus copy.html">Nos Jus</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a>© 2024 JusSuprêmeFitness. Tous droits réservés,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+    <a class="phone-Number" onclick="Sonnerie('02 30 13 05 60')">Numéro de tél: 02 30 13 05 60,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <a>   Adresse: 33 Quater av CHP de Manoeuvres, 44470 Carquefou </a>
+      </footer>
+    </body>
+</html>

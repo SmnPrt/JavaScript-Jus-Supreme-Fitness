@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/A propos.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="../CSS/loaderV2.css">
+    <script src="../JS/js.js" defer> </script>
+    <script src="../JS/ErreurSaisie.js" defer></script>
+    <!-- importation de la police d'ecriture Protest strike-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+<!-- importation de la police d'ecriture Bebas Neue-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&display=swap" rel="stylesheet">
+<!-- importation de la police d'ecriture Cantora One-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cantora+One&family=Faculty+Glyphic&family=Lacquer&family=Protest+Strike&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lacquer&family=Protest+Strike&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    
+    <title>À Propos</title>
+</head>
+<body  class="BackgroundContainer">
+    <header>
+        <nav class="navbar">
+            <a href="../index.html" id="logo-link">
+                <img src="../img/LogoCrop.png" class="nav-link" width="10%" style="cursor: pointer;">
+            </a>
+            <a class="titre">JUS SUPRÊME FITNESS</a>
+            <div id="horloge"></div>
+            <span id="chrono"></span>
+            <ul class="nav-links">
+                <li><a href="../index.html" class="nav nav-link">Accueil</a></li>
+                <ul class="menu">
+                    <li>
+                      <a href="#">Produits et Services ▼</a>
+                      <ul>
+                        <li><a href="Nos Abonements.html" class="nav nav-link">Nos abonnements</a></li>
+                        <li><a href="Nos Options .html" class="nav nav-link">Nos options</a></li>
+                        <li><a href="Nos Jus copy.html" class = "nav nav-link">Nos Jus</a></li>
+                        <li><a href="les coachs.html" class="nav nav-link">Nos coachs</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                <li><a href="equipe.html" onclick="return confirmerNavigation()">Présentation de l'équipe</a></li>
+                <li><a href="A propos.html" class="nav-link">À propos</a></li>
+                <li><a href="nos contact.html" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--Loader-->
+    <div id="loaderContainer" style="display: none;">
+        <div class="loader"></div>
+      </div>
+<!--Fenêtres modales-->  
+<div id="missionModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <img id="modalImage" src="" alt="Mission image" style="max-width: 100%; margin: 10px 0;">
+    <p id="modalDescription"></p>
+  </div>
+</div>
+
+    <div class="history">
+    <h1 class="h1">Notre histoire</h1>
+    <h3 class="h3" id="phistory">
+        
+        Antonin et Simon, passionnés par le sport et l’idée de repousser leurs limites, avaient pour ambition de changer la manière dont les gens percevaient l’activité physique. À cette époque, les salles de sport étaient souvent perçues comme des lieux austères, réservés à une élite sportive ou à ceux qui cherchaient à perdre du poids de manière stéréotypée.
+Les deux amis ont pris conscience qu’il manquait quelque chose de frais, quelque chose qui alliait l’enthousiasme, la santé, et un mode de vie dynamique. Ils voulaient créer un lieu où chacun pourrait se sentir bien, se défouler, mais aussi s'amuser tout en prenant soin de son corps à l'aide de jus de fruits. Et c’est là que l’idée du nom est apparue : Jus Suprême Fitness.
+Pourquoi "Jus Suprême" ? Parce qu’ils voulaient que chaque visiteur se sente énergisé, après avoir bu un jus de fruits frais, puissant et revitalisant. L’idée était de créer une ambiance où la performance physique se mêlait à l’idée de bien-être global. En 1998, le concept de fitness allait bien au-delà des machines et des poids. C'était une révolution qui se dessinait, et Jus Suprême Fitness en est une preuve.
+us Suprême Fitness s’est rapidement distingué par ses services novateurs. Antonin et Simon ont misé sur l'aspect "bien-être global" en proposant des conseils nutritionnels, des programmes de remise en forme personnalisés, et même des smoothies frais et pressés à base de fruits et légumes bio, qui devenaient le symbole du lieu.
+Ils ont aussi introduit un abonnement mensuel flexible qui permettait à chacun de venir quand il le souhaitait, sans pression. Ils ont compris très vite que le succès ne résidait pas seulement dans les équipements de qualité, mais aussi dans la communauté qu’ils construisaient autour de leur salle.
+Le bouche-à-oreille a fait son œuvre. En quelques mois, Jus Suprême Fitness est devenu un lieu incontournable pour les français en quête d’une expérience sportive nouvelle. Des sportifs amateurs aux jeunes professionnels, chacun venait pour se défouler après une journée de travail ou pour s’offrir un moment de bien-être.
+<br>
+<br>
+Aujourd’hui, Jus Suprême Fitness est devenu un modèle de salle de sport à l’échelle nationale et même internationale. Ce qui avait commencé comme un rêve de deux jeunes entrepreneurs en 1998 est devenu une référence dans le monde du fitness. Antonin et Simon, toujours aussi enthousiastes, continuent d'innover et de promouvoir un mode de vie sain et dynamique.
+Leurs clients, anciens et nouveaux, savent qu’en entrant dans une salle Jus Suprême Fitness, ils ne viennent pas juste pour une séance d’entraînement. Ils viennent pour vivre une expérience, se dépasser, et repartir avec un sourire, comme après un bon jus frais.
+</h3></div>
+        
+    <br>
+    <br>
+    <br>
+
+    <div class="history">
+    <h1 class="h1">
+        Nos objectifs
+    </h1>
+    
+    <ul >
+        <li class="li" onclick="showModal(
+  'Promouvoir un mode de vie sain et actif',
+  '../img/cookie.jpg',
+  `L'objectif principal de Jus Suprême Fitness était d’encourager une vie active et équilibrée. En offrant une gamme d’activités physiques adaptées à tous les niveaux, de la musculation classique aux sports de combats, la salle veut que ses membres adoptent un mode de vie axé sur la santé, la forme et le bien-être général.`
+)"> Promouvoir un mode de vie sain et actif</li>
+    <h3 class="h3">
+        <br>
+        L'objectif principal de Jus Suprême Fitness était d’encourager une vie active et équilibrée. En offrant une gamme d’activités physiques adaptées à tous les niveaux, de la musculation classique aux sports de combats, la salle veut que ses membres adoptent un mode de vie axé sur la santé, la forme et le bien-être général.
+        <br>
+        </h3>
+        <li class="li" onclick="showModal(
+  'Promouvoir un mode de vie sain et actif',
+  '../img/Démocratiser.jpeg',
+  `De plus, Jus Suprême Fitness veut casser l’image des salles de sport austères et inaccessibles. L’un des objectifs était de rendre le fitness accessible à tous, indépendamment du niveau, de l’âge ou du sexe. Grâce à des abonnements flexibles, des programmes personnalisés et des équipements adaptés, la salle voulait permettre à chacun de trouver l’activité qui lui correspond.`
+)">
+        Démocratiser l'accès aux salles de sports
+        <br></li>
+        <h3 class="h3">
+        De plus, Jus Suprême Fitness veut casser l’image des salles de sport austères et inaccessibles. L’un des objectifs était de rendre le fitness accessible à tous, indépendamment du niveau, de l’âge ou du sexe. Grâce à des abonnements flexibles, des programmes personnalisés et des équipements adaptés, la salle voulait permettre à chacun de trouver l’activité qui lui correspond.
+        <br>
+        </h3>
+        <li class="li" onclick="showModal(
+  'Promouvoir un mode de vie sain et actif',
+  '../img/structure.jpg',
+  `Ensuite, la salle se distingue par l'utilisation d'équipements modernes, de smoothies sains et de conseils personnalisés. Offrir des services innovants tels que des programmes d’entraînement sur mesure, des séances de coaching, et des produits de qualité (comme des boissons énergétiques fraîches et naturelles) faisait partie des priorités de la salle pour fidéliser ses clients.`
+)">
+        Offrir des services innovants
+        </li>   
+        <br>
+        <h3 class = "h3">
+        Ensuite, la salle se distingue par l'utilisation d'équipements modernes, de smoothies sains et de conseils personnalisés. Offrir des services innovants tels que des programmes d’entraînement sur mesure, des séances de coaching, et des produits de qualité (comme des boissons énergétiques fraîches et naturelles) faisait partie des priorités de la salle pour fidéliser ses clients.
+        
+    </h3>
+    </ul>
+
+    </div>
+
+    
+    <footer>
+        <a>© 2024 JusSuprêmeFitness. Tous droits réservés,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+    <a class="phone-Number" onclick="Sonnerie('02 30 13 05 60')">Numéro de tél: 02 30 13 05 60,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <a>   Adresse: 33 Quater av CHP de Manoeuvres, 44470 Carquefou </a>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,156 @@
+.body{
+    background-image: url(img/jusduq.jpg) ;
+    /*background-color: black;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+.premierephrase{
+    margin-left: 1%;
+    margin-right: 81%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: beige;
+    border-radius: 5px;
+    
+
+
+}
+.h1{
+    font-family: "Protest Strike", "Bebas Neue", sans-serif;
+    
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+input, textarea{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    
+}
+
+input:active, textarea:active{
+    background-color: #000000;
+ }
+
+input {
+    
+    
+    border-radius: 10px;
+    border: 4px double #000000;
+    color: #eeeeee;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    width: 20%;
+   
+    cursor: pointer;
+    
+  }
+.formcotainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .esthform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 1%;
+    margin-top: 5%;
+    margin-bottom: 0%;*/
+    width: 70%;
+    background-color: beige;
+    border-radius: 5px;
+    
+    padding: 3%;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.placeform{
+   width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+.textform{
+    font-size: xx-large ;
+}
+.liste{
+    background-color: #d83838;
+    border-radius: 10px;
+    border: 4px double #000000;
+    color: #eeeeee;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    width: 30%;
+   
+    cursor: pointer;
+
+}
+
+.sendbutton{
+    background-color: #50d838;
+    border-radius: 10px;
+    border: 4px double #000000;
+    color: #eeeeee;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    width: 20%;
+   
+    cursor: pointer;
+
+}
+
+.coordonees{
+    border-radius: 5px;
+    background-color: beige;
+    font-size: x-large;
+    margin-left: 1%;
+    padding-bottom: 1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+img{
+    width:25px
+}
+.instagram{
+    display: flex ;
+    
+}
+
+footer {
+    margin-top: 10%;
+    margin-bottom: 0;
+    background-color: #364E31;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/*erreur de forulaire*/
+.error-message {
+  color: red;
+  font-size: small;
+}

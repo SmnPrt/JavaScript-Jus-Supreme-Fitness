@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/nos contact.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="../CSS/loaderV2.css">
+    <script src="../JS/js.js" defer> </script>
+    <script src="../JS/ErreurSaisie.js" defer></script>
+    <title>Nos contacts</title>
+    <!-- importation de la police d'ecriture Protest strike-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+</head>
+
+<body class="BackgroundContainer">
+    <header>
+        <nav class="navbar">
+            <img src="../img/LogoCrop.png" width="10%">
+            <a class="titre">JUS SUPRÊME FITNESS</a>
+            <div id="horloge"></div>
+            <span id="chrono"></span>
+            <ul class="nav-links">
+                <li><a href="../index.html" class="nav nav-link">Accueil</a></li>
+                <ul class="menu">
+                    <li>
+                      <a href="#">Produits et Services ▼</a>
+                      <ul>
+                        <li><a href="Nos Abonements.html" class="nav nav-link">Nos abonnements</a></li>
+                        <li><a href="Nos Options .html" class="nav nav-link">Nos options</a></li>
+                        <li><a href="Nos Jus copy.html" class="nav nav-link">Nos Jus</a></li>
+                        <li><a href="les coachs.html" class="nav nav-link">Nos coachs</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                <li><a href="equipe.html" onclick="return confirmerNavigation()">Présentation de l'équipe</a></li>
+                <li><a href="A propos.html" class="nav nav-link">À propos</a></li>
+                <li><a href="nos contact.html" class="nav nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="loaderContainer" style="display: none;">
+        <div class="loader"></div>
+      </div>
+    <div class="premierephrase">
+        <h1 class="h1">Formulaire de contacts :</h1>
+    </div>
+    <div class="formcotainer">
+        <div class="esthform">
+            <form action="nos contact.html" method="get" class="placeform">
+                Prénom:<br>
+                <input type="text" name="fname" id="PrenomSend">
+                <span id="prenom-error" class="error-message"></span>
+                <br>
+
+                Nom:
+
+                <br>
+                <input type="text" name="lname" id="NomSend">
+                <span id="nom-error" class="error-message"></span>
+                <br>
+                Date de naissance:
+                <br>
+
+                <input type="date" name="datenaissance">
+                <br>
+                <label for="idliste">Votre abonnement :</label>
+                <br>
+                <SELECT NAME="maliste" class="liste" aria-placeholder="Choisissez votre abonnement" id="idliste">
+
+                    <OPTION VALUE="1">Pas encore inscrit</OPTION>
+                    <OPTION VALUE="1">Offre n°1</OPTION>
+                    <OPTION VALUE="2">Offre n°2</OPTION>
+                    <OPTION VALUE="3">Offre n°3</OPTION>
+                    <OPTION VALUE="4">Offren°4</OPTION>
+                </SELECT>
+
+                <br>
+                Quelque chose de particulier à dire ?
+                <br>
+                <textarea  id="MessageSend" name="comments" cols="50" rows="10" placeholder="Vous pouvez le dire içi…"></textarea>
+                <span id="message-error" class="error-message"></span>
+                <br>
+                <br>
+
+                <input type="submit" class="sendbutton" id="BoutonEnvoyer" name="btn" value="Envoyer" disabled>
+
+            </form>
+
+        </div>
+    </div>
+    <br>
+    <div class="premierephrase">
+        <h1 class="h1">Nos coordonées : </h1>
+    </div>
+    
+    <div class="coordonees">
+        <div>
+        <h4>
+            Antonin Percot:
+        </h4>
+
+        <h5>
+            📨
+            Adresse mail: antonin.percot@isen-ouest.yncrea.fr
+            <br>
+            ☎️
+            Numéro de téléphone: 07 67 92 67 82
+            <br>
+            <div class="instagram">
+                <img src="../img/logoinstagram.png" />
+                Instagram: @antoninvincible
+            </div>
+        </h5>
+    </div>
+    <div>
+        <h4>
+        
+            Simon Binet:
+        </h4>
+
+
+        <h5>
+            📨
+            Adresse mail : simon.binet@isen-ouest.yncrea.fr
+            <br>
+            ☎️
+            Numéro de téléphone: 07 69 69 69 69
+            <br>
+            <div class="instagram">
+                <img src="../img/logoinstagram.png" />
+                Instagram: @Simon.bnt
+            </div>
+
+        </h5>
+    </div>
+    </div>
+    <footer>
+       <a>© 2024 JusSuprêmeFitness. Tous droits réservés,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+    <a class="phone-Number" onclick="Sonnerie('02 30 13 05 60')">Numéro de tél: 02 30 13 05 60,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <a>   Adresse: 33 Quater av CHP de Manoeuvres, 44470 Carquefou </a>
+
+
+
+
+</body>
+
+</html>

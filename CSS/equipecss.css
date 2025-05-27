@@ -1,0 +1,186 @@
+/* on définit les cararctéristiques de la page internet
+html, body {
+  background-image: url(background.jpg);
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}*/
+body{
+  background-image: url(img/jusduq.jpg) ;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  height:100%;
+}
+
+.title{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #364e31;
+  width:100%;
+  height:150px;
+  border-radius: 5px;
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.backgroundbloc1{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1%;
+}
+
+
+.Bloc1{
+  display: flex;
+  text-align:left;
+  font-size: large;
+  background-color:beige;
+}
+
+.esthbloc1{
+  display: flex;
+    
+    
+    width: 70%;
+    background-color: beige;
+    border-radius: 5px;
+    
+    padding: 0%;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.esthbloc2{
+  display: flex;
+    align-items: center;
+    
+    width: 30%;
+    height:75px;
+    background-color: #364e31;
+    border-radius: 5px;
+    
+    padding: 0%;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* on définit les cararctéristiques de l'image */
+
+.images{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: beige ;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+
+}
+
+
+.Antonin{
+  width:50%;
+  height:50%;
+  background-color: beige;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-right: 20%;
+  transform: scale(0.8);
+
+}
+.Antonin:hover{
+  transform: scale(0.9);
+  transition: transform 0.3s;
+}
+.chaussure{
+  width:50%;
+  height:50%;
+  border-radius: 5px;
+  background-color: beige;
+  margin-left: 25%;
+  margin-right: 20%;
+  transform: scale(0.8);
+}
+
+.chaussure:hover{
+  transform: scale(0.9);
+  transition: transform 0.3s;
+}
+
+.Simon{
+  width:50%;
+  height: 50%;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-right: 20%;
+  transform: scale(0.8);
+  border :5px
+}
+
+.Simon:hover{
+  transform: scale(0.9);
+  transition: transform 0.3s;
+
+}
+
+.phototexte{
+  position: relative;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: inline-block; /* s'adapte à la taille du contenu */
+  width: max-content; /* taille au contenu */
+  
+}
+
+/* on définit les cararctéristiques du texte */
+.présentation {
+  font-size: large ;
+  background-color: beige;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:885px) {
+  .esthbloc2{
+    font-size: large;
+  }
+}
+
+footer {
+  margin-top: 10%;
+  margin-bottom: 0;
+  background-color: #364E31;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/*Cartes à gratter*/
+
+.Ticket {
+  position: relative;
+}
+
+.A_gratter {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  border-radius: 5px;
+  pointer-events: none; /* Pour que la souris touche aussi l'image */
+}

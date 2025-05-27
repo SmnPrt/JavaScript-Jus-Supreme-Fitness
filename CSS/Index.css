@@ -1,0 +1,142 @@
+footer {
+    margin-top: 10%;
+    margin-bottom: 0;
+    background-color: #364E31;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    height:100%;
+    font-family: "Anton","Oswald", "Protest Strike";
+    overscroll-behavior: none;
+}
+
+.banner {
+    margin-top: 1em;
+    margin-left: 0;
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 5em;
+    
+}
+
+.banner a {
+    font-size:xx-large;
+}
+
+.panelAlt {
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+iframe {
+    width:30%;
+    margin-left: 4em;
+}
+
+button {
+    font-family: "Anton","Oswald", "Protest Strike";
+    font-size:x-large;
+    border: none;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 1em 3em 1em 3em;
+    width: 20em;
+    background-color:#9747FF;
+    transition: all 0.2s;
+}
+
+button:hover {
+    width: 22em;
+    letter-spacing: 3px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10em;
+  font-family: "Anton","Oswald", "Protest Strike";
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  height: 60%;
+  text-align: center;
+  background-color:#364E31;
+  border-radius: 15px;
+  padding-top:1px;
+  padding-bottom:1em;
+  padding-right: 3em;
+}
+
+.descriptif {
+    font-size: small;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1em;
+    padding: 3% 7%;
+    width: 30%;
+    border-radius: 25px;
+    background-color: #fff;
+    color:black;
+}
+
+.content img {
+    border-radius: 15px;
+    height:6em;
+    margin-bottom:2em;
+}
+
+.content button {
+    width:25%;
+    height:auto;
+    border-radius: 15px;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; /* Centre les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+.contentEnd {
+    display: flex;
+    justify-content: center; /* Centre les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    flex-direction: column;
+}
+
+/*Pour le zoom des images*/
+.Initiale {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.Initiale:hover,
+.zoom {
+  transform: scale(2);
+  z-index: 10;
+  position: relative;
+}
+
+/*Slogan animé*/
+.slogan {
+  display: inline-block;
+  font-size: xx-large;
+  transition: transform 0.5s ease, opacity 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
