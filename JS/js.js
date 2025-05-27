@@ -93,7 +93,7 @@ function Sonnerie(phoneNumber) {
       console.log(`vous appelez ce numéro: ${phoneNumber}`);
 
       //on joue la sonnerie (crée par Antonin probablement ca meilleure productionn sonore)
-      const audio = new Audio("../logobiParalysieDuSommeil.mp3");
+      const audio = new Audio("../../logobiParalysieDuSommeil.mp3");
       audio.play();
     }
   });
