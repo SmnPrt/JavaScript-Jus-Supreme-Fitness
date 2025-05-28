@@ -24,7 +24,7 @@ function detectError(event) {
 
 //Fonction pour Lancer le jeu de pierre-feuille-ciseaux
 function lancerJeu() {
-  //on initialise les variables de base
+  //on initialise les variables de base, constantes car on ne vetu pas qu'elles soient modifiées
   const choix = ["pierre", "feuille", "ciseaux"];
   const utilisateur = prompt("Choisis : pierre, feuille ou ciseaux").toLowerCase(); 
   const ordinateur = choix[Math.floor(Math.random() * 3)];
@@ -33,11 +33,9 @@ function lancerJeu() {
     alert("Choix invalide.");
     return;
   }
-
-  let resultat = "";
 //on compare le choix de l'utlisateur et de l'ordi
   if (utilisateur === ordinateur) {
-    resultat = "Égalité. Rejoue !";
+    alert("Égalité. Rejoue !");
     lancerJeu();
     return;
   } else if (
